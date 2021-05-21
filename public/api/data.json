@@ -1,11 +1,11 @@
 {
   "works": [
     {
-      "title": "デジフル",
+      "title": "HariboooteOS",
       "link": "https://github.com/m-star18/HariboooteOS",
       "text": "30日でできる自作OS入門を参考に, 一から作った自作OSです.",
       "tag": "C, Assembly",
-      "image": "/img/works/23.png"
+      "image": "/img/works/01.png"
     },
     {
       "title": "makepost",
