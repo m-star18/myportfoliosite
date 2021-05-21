@@ -8,11 +8,11 @@
       "image": "/img/works/01.png"
     },
     {
-      "title": "makepost",
-      "link": "https://www.makepost.net/",
-      "text": "全ての「つくる人」に刺激を与え、互いの創作意欲を高められるような場所にしたい。そんな想いから生まれた、 エンジニア向けのSNSです。 ",
-      "tag": "Ruby on Rails, AWS",
-      "image": "/img/works/22.png"
+      "title": "super-mario-bros-ai",
+      "link": "https://github.com/m-star18/super-mario-bros-ai",
+      "text": "スーパーマリオブラザーズを強化学習を用いて攻略しました. 現在はA3Cのみとなっています.",
+      "tag": "Pytorch, Python, reinforcement-learning",
+      "image": "/img/works/02.png"
     },
     {
       "title": "tico",
