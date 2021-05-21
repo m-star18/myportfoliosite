@@ -36,11 +36,11 @@
       "image": ""
     },
     {
-      "title": "UNY Theme Generator",
-      "link": "https://unys.github.io/uny-theme-generator/",
-      "text": "UNYのカラースキームを編集し、CSSファイルとしてダウンロードできるジェネレータ",
-      "tag": "Vue.js",
-      "image": "/img/works/19.png"
+      "title": "atcoder",
+      "link": "https://github.com/m-star18/atcoder",
+      "text": "自粛期間中に遊んでいたatcoderで書いたプログラム.",
+      "tag": "atcoder, Python",
+      "image": ""
     },
     {
       "title": "Spenders",
