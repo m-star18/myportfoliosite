@@ -1,3 +1,1 @@
-# myportfoliosite
-
-[Go!](http://yusukeishiguro.com)
+# My Portfolio Site
