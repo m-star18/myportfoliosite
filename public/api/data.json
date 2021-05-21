@@ -15,11 +15,11 @@
       "image": "/img/works/02.png"
     },
     {
-      "title": "tico",
-      "link": "https://github.com/kokushin/tico",
-      "text": "テキストからファビコンなどのアイコン画像を生成できるジェネレータ。canvas->base64->png->zipと言った流れでブラウザ上で生成することが可能",
-      "tag": "Node.js(Express), Vue.js",
-      "image": "/img/works/21.png"
+      "title": "Spielliste",
+      "link": "https://github.com/m-star18/Spielliste",
+      "text": "自分用に作成したエミュレータを管理するGUIアプリケーション.",
+      "tag": "Python, PySimpleGUI",
+      "image": "/img/works/03.jpg"
     },
     {
       "title": "md2docs",
