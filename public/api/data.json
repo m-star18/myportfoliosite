@@ -2,9 +2,9 @@
   "works": [
     {
       "title": "デジフル",
-      "link": "https://digiful.net",
-      "text": "Glossyの後継サイト。アプリやWEBサービスを最大限に活用するためのメディア",
-      "tag": "WordPress",
+      "link": "https://github.com/m-star18/HariboooteOS",
+      "text": "30日でできる自作OS入門を参考に, 一から作った自作OSです.",
+      "tag": "C, Assembly",
       "image": "/img/works/23.png"
     },
     {
@@ -93,10 +93,10 @@
     },
     {
       "title": "myportfoliosite",
-      "link": "https://github.com/kokushin/myportfoliosite",
-      "text": "React.jsでつくってみたポートフォリオサイト。まだ試行錯誤中",
+      "link": "https://github.com/m-star18/myportfoliosite",
+      "text": "React.jsで作成したポートフォリオ.",
       "tag": "JavaScript, React.js",
-      "image": "/img/works/01.png"
+      "image": ""
     },
     {
       "title": "Slack File Destroyer",
@@ -204,15 +204,8 @@
       "image": "/img/works/12.jpg"
     },
     {
-      "title": "Client works",
-      "link": "https://ishiguro1.tumblr.com/archive",
-      "text": "会社での実績一覧",
-      "tag": "Private",
-      "image": ""
-    },
-    {
       "title": "More works",
-      "link": "https://github.com/kokushin?tab=repositories",
+      "link": "https://github.com/m-star18?tab=repositories",
       "text": "GitHubを覗いてみる",
       "tag": "Private",
       "image": ""
