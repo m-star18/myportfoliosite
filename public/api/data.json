@@ -22,11 +22,11 @@
       "image": "/img/works/03.jpg"
     },
     {
-      "title": "md2docs",
-      "link": "https://github.com/kokushin/md2docs",
-      "text": "README.mdなどマークダウン形式のファイルからドキュメントを自動生成するツール。まだプロトタイプ段階",
-      "tag": "JavaScript",
-      "image": ""
+      "title": "AutoHealthBot",
+      "link": "https://github.com/m-star18/AutoHealthBot",
+      "text": "毎朝の検温を自動で行ってくれるプログラム.",
+      "tag": "Python, Selenium",
+      "image": "/img/works/04.jpg"
     },
     {
       "title": "atoyomi",
