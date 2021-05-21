@@ -29,11 +29,11 @@
       "image": "/img/works/04.jpg"
     },
     {
-      "title": "atoyomi",
-      "link": "https://chrome.google.com/webstore/detail/bijbpdfpldnfnponpjmnhmmhgildmgga?hl=ja",
-      "text": "atoyomiは、現在開いているページを一時的に保存し、「あとで読む」ことができる拡張機能です。",
-      "tag": "JavaScript",
-      "image": "/img/works/20.png"
+      "title": "cafeteria-simulation",
+      "link": "https://github.com/m-star18/cafeteria-simulation",
+      "text": "食堂の混雑回避シミュレーションです. 現在も開発途中で一緒に手伝ってくれる方もも募集しています.",
+      "tag": "Python, pip",
+      "image": ""
     },
     {
       "title": "UNY Theme Generator",
