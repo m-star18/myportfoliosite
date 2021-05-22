@@ -12,17 +12,21 @@ class About extends Component {
     return(
       <div className="uc-section _center">
         <div className="uc-section-title">About</div>
-        <p>Hello,</p>
+        <p>Hi!</p>
         <div className="uc-grid-unit">
           <div className="uc-grid">
             <div className="uc-card">
               <div className="uc-card-image" style={myProfileCover}></div>
               <div className="uc-card-header">
                 <div className="uc-card-icon" style={myProfileIcon}></div>
-                <div className="uc-card-title">Yusuke Ishiguro (Kokushin)</div>
+                <div className="uc-card-title">Ryusei Ito (m-star18)</div>
               </div>
               <div className="uc-card-body">
-                <p>1993年愛知県生まれ。<br/>中学2年生からWeb業界へのあこがれを持ち、専門学校を経て名古屋のWeb制作会社へ入社。HTML, CSS, JavaScriptを活用し大手企業サイトのマークアップ、システム実装に携わる。<br/>Webサービス開発、フロントエンド周りの技術に興味あり。最近だとReact.js, Node.jsを触るのがたのしい。<br/>くだらないものから実用的なものまで、とにかく作ってみる精神で生きてます。</p>
+                <p>2003年愛知県生まれ。
+                  <br/>中学2年生からWeb業界へのあこがれを持ち、専門学校を経て名古屋のWeb制作会社へ入社。HTML, CSS, JavaScriptを活用し大手企業サイトのマークアップ、システム実装に携わる。
+                  <br/>Webサービス開発、フロントエンド周りの技術に興味あり。最近だとReact.js, Node.jsを触るのがたのしい。
+                  <br/>くだらないものから実用的なものまで、とにかく作ってみる精神で生きてます。
+                </p>
               </div>
               <div className="uc-card-footer uc-grid _col-5 _small-col-3">
                 <div className="uc-grid-cell">
