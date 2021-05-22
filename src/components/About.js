@@ -26,19 +26,16 @@ class About extends Component {
               </div>
               <div className="uc-card-footer uc-grid _col-5 _small-col-3">
                 <div className="uc-grid-cell">
-                  <div className="uc-btn _icon"><a href="https://twitter.com/kokushing" target="_blank"><i className="fa fa-twitter"></i></a></div>
+                  <div className="uc-btn _icon"><a href="https://twitter.com/masutango18" target="_blank"><i className="fa fa-twitter"></i></a></div>
                 </div>
                 <div className="uc-grid-cell">
-                  <div className="uc-btn _icon"><a href="https://www.facebook.com/yusuke.1496" target="_blank"><i className="fa fa-facebook"></i></a></div>
+                  <div className="uc-btn _icon"><a href="https://github.com/m-star18" target="_blank"><i className="fa fa-github"></i></a></div>
                 </div>
                 <div className="uc-grid-cell">
-                  <div className="uc-btn _icon"><a href="https://github.com/kokushin" target="_blank"><i className="fa fa-github"></i></a></div>
+                  <div className="uc-btn _icon"><a href="https://www.instagram.com/ryusei__0111/" target="_blank"><i className="fa fa-instagram"></i></a></div>
                 </div>
                 <div className="uc-grid-cell">
-                  <div className="uc-btn _icon"><a href="https://www.instagram.com/kokushin_/" target="_blank"><i className="fa fa-instagram"></i></a></div>
-                </div>
-                <div className="uc-grid-cell">
-                  <div className="uc-btn _icon"><a href="mailto:mail@kokush.in"><i className="fa fa-envelope"></i></a></div>
+                  <div className="uc-btn _icon"><a href="mailto:31807@toyota.kosen-ac.jp"><i className="fa fa-envelope"></i></a></div>
                 </div>
               </div>
             </div>
