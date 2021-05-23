@@ -4,12 +4,12 @@ import '../styles/About.css';
 class About extends Component {
   render() {
     const myProfileCover = {
-      backgroundImage: `url(https://pbs.twimg.com/media/DDuhpaDV0AAdwQx.jpg:large)`
+      backgroundImage: `url(https://resizer2.myct.jp/img/60303837134/background.jpg)`
     }
     const myProfileIcon = {
       backgroundImage: `url(https://avatars.githubusercontent.com/u/52071380?v=4)`
     }
-    return(
+    return (
       <div className="uc-section _center">
         <div className="uc-section-title">About</div>
         <p>Hi!</p>
@@ -22,10 +22,23 @@ class About extends Component {
                 <div className="uc-card-title">Ryusei Ito (m-star18)</div>
               </div>
               <div className="uc-card-body">
-                <p>生年月日:  2003年1月11日
-                  <br/>所属:  豊田工業高等専門学校
-                  <br/>学科:  情報工学科
+                <p>生年月日: 2003年1月11日
+                  <br/>所属: 豊田工業高等専門学校
+                  <br/>学科: 情報工学科
+                  <br/>学年: 4
                   <br/>
+                  <br/>経歴:
+                  <br/>2021年3月〜 株式会社AVILEN 長期インターン
+                  <br/>2020年8月〜 株式会社エムケイシステム 開発アルバイト
+                  <br/>2018年4月〜 国立豊田工業高等専門学校入学
+                  <br/>
+                  <br/>Skills:
+                  <br/>Python(Pytorch, scikit-learn, Django, Flask),
+                  <br/>Rust, C, Assembly, Ruby,
+                  <br/>Javascript(React, jQuery), HTML, CSS,
+                  <br/>Docker, Kubernetes, GCP,
+                  <br/>SQL(MySQL, MariaDB),
+                  <br/>Linux(CentOS, Arch Linux, Ubuntu, Mint),
                 </p>
               </div>
               <div className="uc-card-footer uc-grid _col-5 _small-col-3">
