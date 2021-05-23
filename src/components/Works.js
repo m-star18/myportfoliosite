@@ -4,7 +4,7 @@ import '../styles/Works.css';
 
 class Works extends Component {
   render() {
-    return(
+    return (
       <section className="works uc-section _center">
         <h2 className="uc-section-title">Works</h2>
         <p>since 2018</p>

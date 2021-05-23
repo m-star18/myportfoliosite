@@ -5,7 +5,7 @@ import '../styles/Content.css';
 
 class Content extends Component {
   render() {
-    return(
+    return (
       <main className="uc-content">
         <Hero />
         <Works />

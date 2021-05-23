@@ -3,7 +3,7 @@ import '../styles/Header.css';
 
 class Header extends Component {
   render() {
-    return(
+    return (
       <header className="uc-header">
         <h1 className="uc-header-logo"><a href="/">RI</a></h1>
         <div className="uc-header-menu" role="navigation">
