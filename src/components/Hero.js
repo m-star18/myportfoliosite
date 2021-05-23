@@ -6,11 +6,11 @@ class Hero extends Component {
     const heroImageSrc = {
       backgroundImage: `url(https://source.unsplash.com/fPkvU7RDmCo)`,
     };
-    return(
+    return (
       <div className="uc-hero">
-        <div className="uc-hero-bg" style={heroImageSrc}></div>
-        <div className="uc-hero-title">Yusuke Ishiguro</div>
-        <p>Web developer</p>
+        <div className="uc-hero-bg" style={heroImageSrc}/>
+        <div className="uc-hero-title">Ryusei Ito</div>
+        <p>ML engineer</p>
       </div>
     );
   }

@@ -3,17 +3,16 @@ import '../styles/Footer.css';
 
 class Footer extends Component {
   render() {
-    return(
+    return (
       <footer className="uc-footer">
         <div className="uc-footer-menu">
           <a href="" onClick={this.props.handleOpenModal}>About</a>
-          <a href="https://twitter.com/kokushing" target="_blank">Twitter</a>
-          <a href="https://www.facebook.com/yusuke.1496" target="_blank">Facebook</a>
-          <a href="https://github.com/kokushin" target="_blank">GitHub</a>
-          <a href="https://www.instagram.com/kokushin_/" target="_blank">Instagram</a>
+          <a href="https://twitter.com/masutango18" target="_blank">Twitter</a>
+          <a href="https://github.com/m-star18" target="_blank">GitHub</a>
+          <a href="https://www.instagram.com/ryusei__0111/" target="_blank">Instagram</a>
         </div>
-        <div className="uc-footer-logo"><cite>YI</cite></div>
-        <small>&copy; 2017 Yusuke Ishiguro</small>
+        <div className="uc-footer-logo"><cite>RI</cite></div>
+        <small>&copy; 2021 Ryusei Ito</small>
       </footer>
     );
   }

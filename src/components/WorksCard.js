@@ -3,8 +3,8 @@ import axios from 'axios';
 import '../styles/WorksCard.css';
 
 class WorksCard extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       data: [],
     };
@@ -26,7 +26,7 @@ class WorksCard extends Component {
 
   render() {
     const data = this.state.data;
-    return(
+    return (
       <div className="uc-grid _small-col-full _medium-col-2 _col-3 _gutter">
         {data && data.works && data.works.map((item, i) =>
           <div key={i} className="uc-grid-cell">
@@ -41,7 +41,7 @@ class WorksCard extends Component {
 const Card = ({image, title, link, text, tag}) => (
   <article className="uc-card _banner">
     <a href={link} target="_blank">
-      <div className="uc-card-image" style={{backgroundImage: `url(${image})`}}></div>
+      <div className="uc-card-image" style={{backgroundImage: `url(${image})`}}/>
       <h3 className="uc-card-title">{title}</h3>
       <p>{text}</p>
       <p className="works-dev-tag">{tag}</p>
