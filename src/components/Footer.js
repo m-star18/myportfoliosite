@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 
 class Footer extends Component {
   render() {
-    return(
+    return (
       <footer className="uc-footer">
         <div className="uc-footer-menu">
           <a href="" onClick={this.props.handleOpenModal}>About</a>
