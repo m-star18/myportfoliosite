@@ -7,7 +7,7 @@ class About extends Component {
       backgroundImage: `url(https://pbs.twimg.com/media/DDuhpaDV0AAdwQx.jpg:large)`
     }
     const myProfileIcon = {
-      backgroundImage: `url(https://pbs.twimg.com/profile_images/835660761946976256/mv3p9fxS_400x400.jpg)`
+      backgroundImage: `url(https://avatars.githubusercontent.com/u/52071380?v=4)`
     }
     return(
       <div className="uc-section _center">
@@ -16,16 +16,16 @@ class About extends Component {
         <div className="uc-grid-unit">
           <div className="uc-grid">
             <div className="uc-card">
-              <div className="uc-card-image" style={myProfileCover}></div>
+              <div className="uc-card-image" style={myProfileCover}/>
               <div className="uc-card-header">
-                <div className="uc-card-icon" style={myProfileIcon}></div>
+                <div className="uc-card-icon" style={myProfileIcon}/>
                 <div className="uc-card-title">Ryusei Ito (m-star18)</div>
               </div>
               <div className="uc-card-body">
-                <p>2003年愛知県生まれ。
-                  <br/>中学2年生からWeb業界へのあこがれを持ち、専門学校を経て名古屋のWeb制作会社へ入社。HTML, CSS, JavaScriptを活用し大手企業サイトのマークアップ、システム実装に携わる。
-                  <br/>Webサービス開発、フロントエンド周りの技術に興味あり。最近だとReact.js, Node.jsを触るのがたのしい。
-                  <br/>くだらないものから実用的なものまで、とにかく作ってみる精神で生きてます。
+                <p>生年月日:  2003年1月11日
+                  <br/>所属:  豊田工業高等専門学校
+                  <br/>学科:  情報工学科
+                  <br/>
                 </p>
               </div>
               <div className="uc-card-footer uc-grid _col-5 _small-col-3">
