@@ -3,8 +3,8 @@ import axios from 'axios';
 import '../styles/WorksCard.css';
 
 class WorksCard extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       data: [],
     };
