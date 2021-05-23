@@ -38,15 +38,5 @@
     <article class="markdown-body" id="marked"></article>
     <script src="//cdnjs.cloudflare.com/ajax/libs/marked/0.3.7/marked.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.min.js"></script>
-    <script>
-      axios.get('/api/career.txt')
-        .then(function (res) {
-          var data = res.data;
-          document.getElementById('marked').innerHTML = marked(data);
-        })
-        .catch(function (err) {
-          console.log(err);
-        });
-    </script>
   </body>
 </html>
