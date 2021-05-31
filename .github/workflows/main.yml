@@ -25,7 +25,9 @@ jobs:
     - name: Npm install
       run: npm install
     - name: Build myportfoliosite
-      run: npm build
+      run: |
+        npm build
+        ls
     - name: Generate ssh key
       run: echo "$SSH_PRIVATE_KEY" > key && chmod 600 key
       env:
