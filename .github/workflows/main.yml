@@ -14,8 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Clone myportfoliosite
-      run: |
-        git clone https://github.com/m-star18/myportfoliosite.git
+      run: git clone https://github.com/m-star18/myportfoliosite.git
     - name: Setup node
       uses: actions/setup-node@v1
       with:
@@ -34,12 +33,12 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Debug
       run: |
-        ls
-        mxschmitt/action-tmate@b85ae7b45d889eec8b1772f81370970c15b78092
+        ls build/
+        ls key/
+        ls public/
     - name: Deploy
-      run: rsync -nva --delete -e "ssh -i key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}" ./build/* $SSH_USER@$SSH_HOST:$DEPLOY_PATH
+      run: rsync -nva --delete -e "ssh -i key StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ./build/* $SSH_USER@$SSH_HOST:$DEPLOY_PATH
       env:
         SSH_USER: ${{ secrets.SSH_USER }}
-        SSH_PORT: ${{ secrets.SSH_PORT }}
         DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         SSH_HOST: ${{ secrets.SSH_HOST }}
