@@ -32,6 +32,10 @@ jobs:
       run: echo "$SSH_PRIVATE_KEY" > key && chmod 600 key
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: Debug
+      run: |
+        ls
+        mxschmitt/action-tmate@b85ae7b45d889eec8b1772f81370970c15b78092
     - name: Deploy
       run: rsync -nva --delete -e "ssh -i key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}" ./build/* $SSH_USER@$SSH_HOST:$DEPLOY_PATH
       env:
