@@ -34,7 +34,6 @@ jobs:
     - name: Debug
       run: |
         ls build/
-        ls key/
         ls public/
     - name: Deploy
       run: rsync -nva --delete -e "ssh -i key StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ./build/* $SSH_USER@$SSH_HOST:$DEPLOY_PATH
