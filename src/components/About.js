@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import '../styles/About.css';
-import background from '../assets/background.jpg'
-import icon from '../assets/犬.png'
 
 class About extends Component {
   render() {
     const myProfileCover = {
-      backgroundImage: `url(${background})`
+      backgroundImage: `url(https://github.com/m-star18/myportfoliosite/blob/master/src/assets/background.jpg?raw=true)`
     }
     const myProfileIcon = {
-      backgroundImage: `url(${icon})`
+      backgroundImage: `url(https://github.com/m-star18/myportfoliosite/blob/master/src/assets/%E7%8A%AC.png?raw=true)`
     }
     return (
       <div className="uc-section _center">
