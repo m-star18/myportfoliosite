@@ -10,7 +10,7 @@
     {
       "title": "super-mario-bros-ai",
       "link": "https://github.com/m-star18/super-mario-bros-ai",
-      "text": "スーパーマリオブラザーズを強化学習を用いて攻略しました. 現在はA3Cのみとなっています.",
+      "text": "スーパーマリオブラザーズを強化学習を用いて攻略しました. 現在はA3CとDQNのみとなっています.",
       "tag": "Pytorch, Python, reinforcement-learning",
       "image": "/img/works/02.png"
     },
@@ -54,14 +54,14 @@
       "link": "https://github.com/m-star18/myportfoliosite",
       "text": "React.jsで作成したポートフォリオ.",
       "tag": "JavaScript, React.js",
-      "image": ""
+      "image": "/img/works/07.jpg"
     },
     {
       "title": "More works",
       "link": "https://github.com/m-star18?tab=repositories",
-      "text": "GitHubを覗いてみる",
+      "text": "GitHubを覗いてみる.",
       "tag": "Private",
-      "image": ""
+      "image": "/img/works/08.png"
     }
   ]
 }
