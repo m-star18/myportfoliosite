@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="container">
         <Header handleOpenModal={this.handleOpenModal} />
-          <Content />
+        <Content />
         <Footer handleOpenModal={this.handleOpenModal} />
         <ReactModal
           isOpen={this.state.showModal}
